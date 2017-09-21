@@ -32,6 +32,6 @@ for (z in pathlist){
         }
     close(con)
     #Saved with "Review_[log name]"
-    write(tracker, file=paste("Review_",z,sep=""))
+    write(tracker, file=paste("Review_",z,".txt",sep=""))
 }
 
